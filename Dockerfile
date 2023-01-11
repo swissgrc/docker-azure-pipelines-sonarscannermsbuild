@@ -51,7 +51,7 @@ RUN apt-get update -y && \
   node -v
 
 # renovate: datasource=github-tags depName=dotnet/sdk extractVersion=^v(?<version>.*)$
-ENV DOTNET_VERSION=6.0.405
+ENV DOTNET_VERSION=7.0.102
 
 ENV \
     # Do not show first run text
